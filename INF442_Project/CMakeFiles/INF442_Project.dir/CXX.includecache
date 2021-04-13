@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/jijingtian/Documents/INF442/INF442_Project/kernel.cpp
-kernel.h
-/home/jijingtian/Documents/INF442/INF442_Project/kernel.h
-
 /home/jijingtian/Documents/INF442/INF442_Project/kernel.h
 Eigen/Dense
 -
@@ -25,12 +21,6 @@ iostream
 -
 svm.h
 /home/jijingtian/Documents/INF442/INF442_Project/svm.h
-
-/home/jijingtian/Documents/INF442/INF442_Project/svm.cpp
-svm.h
-/home/jijingtian/Documents/INF442/INF442_Project/svm.h
-utility
--
 
 /home/jijingtian/Documents/INF442/INF442_Project/svm.h
 cmath

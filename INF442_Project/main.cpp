@@ -22,7 +22,7 @@ void generate_data(MatrixXd& X, VectorXd& Y, int n){
 
 int main() {
 
-    int n_train = 1000;
+    int n_train = 10000;
     int n_test = 100;
     MatrixXd train_x(n_train,2);
     VectorXd train_y(n_train);
@@ -32,7 +32,8 @@ int main() {
     VectorXd test_y(n_test);
     generate_data(test_x,test_y,n_test);
 
-    GaussianKernel kernel(0.5);
+    //GaussianKernel kernel(0.5);
+    LinearKernel kernel;
     SVM svm(1.0,&kernel);
     svm.fit(train_x,train_y);
     double e_rate = svm.score(test_x,test_y);

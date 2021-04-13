@@ -26,11 +26,16 @@ public:
 private:
     // f(x) = sign(sum(_ai * yi * K(x,xi) )+ _b)
     VectorXd _a;
-    double _b = 0.0;
+    double _b ;
     // _n: number of trained data, _d dim
     int _n;
     int _d;
     double _c;
+
+    double _epsilon = 0.00000001;
+    // tolerrate value on alpha change
+    double _toler = 0.00000001;
+
 
     MatrixXd _train_x;
     VectorXd _train_y;
@@ -46,8 +51,9 @@ private:
     int _find_second(int i);
     double _clip_a(int i,int j,double a_j_new);
     void _update_b_E(int i,int j,double ainew,double ajnew);
-
+    void _update_a(int i,double val);
     void _smo();
+    bool _check_stop();
 
 
 
