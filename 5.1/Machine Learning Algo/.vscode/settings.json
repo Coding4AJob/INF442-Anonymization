@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "vector": "cpp",
+        "__split_buffer": "cpp",
+        "deque": "cpp",
+        "new": "cpp",
+        "bitset": "cpp",
+        "dense": "cpp",
+        "ostream": "cpp",
+        "ios": "cpp",
+        "fft": "cpp",
+        "*.expression": "cpp",
+        "alignedvector3": "cpp",
+        "random": "cpp"
+    }
+}
