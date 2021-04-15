@@ -1,0 +1,5 @@
+/usr/local/lib/libmylib.dylib
+/usr/local/include/mylib
+/usr/local/include/mylib_bits/svm.hpp
+/usr/local/include/mylib_bits/logisticregression.hpp
+/usr/local/include/mylib_bits/kernel.hpp

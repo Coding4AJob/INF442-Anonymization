@@ -1,0 +1,1 @@
+/Users/jijingtian/opt/anaconda3/lib/python3.7/site-packages/mylib.cpython-37m-darwin.so
