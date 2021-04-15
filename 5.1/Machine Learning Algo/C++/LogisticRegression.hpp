@@ -126,9 +126,9 @@ Matrix<double,sampleNum,1> predict(MatrixXd X_bar,Matrix<double,attriNum+1,1> be
     Matrix<double,sampleNum,1> y_pred;
     y_pred.fill(0);
     for(int i=0;i<sampleNum;i++){
-        double tmp = 1/(1+exp(X_bar.row(i)*beta));
+        double tmp = 1/(1+exp(-X_bar.row(i)*beta));
         // cout << tmp << endl;
-        if(tmp <0.5)
+        if(tmp >0.5)
            y_pred(i,0)= 1; // 否则默认是0
     }
     return y_pred;

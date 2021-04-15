@@ -13,9 +13,9 @@ int main(){
     cout << "Loading Done!" << endl;
     cout << "Start Trainning: " << endl;
 
-    int max_iter = 50;
+    int max_iter = 100;
     double mu = 0.001; // 学习率
-    double alpha = 0.0001; // L2正则项的权重
+    double alpha = 0.0; // L2正则项的权重
     for(int i=0;i<max_iter;i++){
         beta -= mu*theta_gradient(X_bar,Y,beta,alpha);
         // cout << beta << endl;
