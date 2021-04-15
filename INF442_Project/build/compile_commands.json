@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/build",
+  "command": "/usr/bin/clang++   -I/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/eigen3  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/INF442_Project.dir/main.cpp.o -c /Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/main.cpp",
+  "file": "/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/main.cpp"
+},
+{
+  "directory": "/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/build",
+  "command": "/usr/bin/clang++   -I/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/eigen3  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/INF442_Project.dir/svm.cpp.o -c /Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/svm.cpp",
+  "file": "/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/svm.cpp"
+},
+{
+  "directory": "/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/build",
+  "command": "/usr/bin/clang++   -I/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/eigen3  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -std=gnu++11 -o CMakeFiles/INF442_Project.dir/kernel.cpp.o -c /Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/kernel.cpp",
+  "file": "/Users/jijingtian/Documents/GitHub/INF442-Anonymization/INF442_Project/kernel.cpp"
+}
+]
