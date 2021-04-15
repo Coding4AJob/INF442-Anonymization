@@ -104,9 +104,9 @@ def theta_gradient(X_bar,y,beta,alpha=0):
 */
 
 
-Matrix<double,attriNum+1,1> theta_gradient(MatrixXd X_bar ,Matrix<double,sampleNum,1> Y,Matrix<double,attriNum+1,1> beta){
-    Matrix<double,attriNum+1,1> ans;
-    ans.fill(0);
+Matrix<double,attriNum+1,1> theta_gradient(MatrixXd X_bar ,Matrix<double,sampleNum,1> Y,Matrix<double,attriNum+1,1> beta,double alpha){
+    Matrix<double,attriNum+1,1> ans = alpha * beta;
+    // ans.fill(0);
     for(int i=0;i<sampleNum;i++){
         // cout << X_bar.row(i).rows() << "\t" << X_bar.row(i).cols() <<endl;
         double tmp = exp(X_bar.row(i)*beta);

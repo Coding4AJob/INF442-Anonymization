@@ -13,14 +13,16 @@ int main(){
     cout << "Loading Done!" << endl;
     cout << "Start Trainning: " << endl;
 
-    int max_iter = 100;
+    int max_iter = 50;
     double mu = 0.001; // 学习率
+    double alpha = 0.0001; // L2正则项的权重
     for(int i=0;i<max_iter;i++){
-        beta -= mu*theta_gradient(X_bar,Y,beta);
+        beta -= mu*theta_gradient(X_bar,Y,beta,alpha);
         // cout << beta << endl;
         // cout << "==========" << endl;
-        if(i%(max_iter/100)==0)
-            cout << i/(max_iter/100) << "% Accomplished" << endl; 
+        // if(i%(max_iter/100)==0)
+            // cout << i/(max_iter/100) << "% Accomplished" << endl; 
+        cout << i << "/" << max_iter << endl;
     }
 
     cout << "Start Evaluating" << endl;
